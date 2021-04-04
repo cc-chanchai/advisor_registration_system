@@ -54,10 +54,17 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <router-link to="/login" class="button is-light"> Sign in </router-link>
+              <router-link to="/signUp">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+              </router-link>
+              
+              <router-link to="/login" >
+                <a class="button is-light">
+                  <strong>Sign in</strong>
+                </a> 
+              </router-link>
               <!-- <a class="button is-light">
                 <router-link to="/login"> Sign in </router-link>
               </a> -->
